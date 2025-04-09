@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94fd385b-87ad-4ab4-aa8b-4e35522ddef6" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_verify_distance_between_airports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_verify_specific_airports.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,33 +51,24 @@
   "keyToString": {
     "Python tests.pytest in test.py.executor": "Run",
     "Python tests.pytest in test_verify_airports_count.py.executor": "Run",
+    "Python tests.pytest in test_verify_distance_between_airports.py.executor": "Debug",
     "Python tests.pytest in test_verify_inventory_items_count_ui.py.executor": "Run",
+    "Python tests.pytest in test_verify_specific_airports.py.executor": "Run",
     "Python tests.pytest in tests.executor": "Run",
     "Python tests.pytest in verify_add_item_to_cart_ui.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/automation-control-up/tests"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest in tests">
-    <configuration name="pytest in C:/Users/User/PycharmProjects/automation-control-up/tests/test_async_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="automation-control-up" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_async_example.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\automation-control-up\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_verify_distance_between_airports.py">
     <configuration name="pytest in test_verify_add_item_to_cart_ui.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="automation-control-up" />
       <option name="ENV_FILES" value="" />
@@ -94,7 +86,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_verify_airports_count.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_verify_distance_between_airports.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="automation-control-up" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +99,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_verify_airports_count.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_verify_distance_between_airports.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -125,6 +117,23 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_verify_inventory_items_count_ui.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_verify_specific_airports.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="automation-control-up" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_verify_specific_airports.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -147,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_verify_distance_between_airports.py" />
+        <item itemvalue="Python tests.pytest in test_verify_specific_airports.py" />
         <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_verify_add_item_to_cart_ui.py" />
         <item itemvalue="Python tests.pytest in test_verify_inventory_items_count_ui.py" />
-        <item itemvalue="Python tests.pytest in test_verify_airports_count.py" />
-        <item itemvalue="Python tests.pytest in C:/Users/User/PycharmProjects/automation-control-up/tests/test_async_example.py" />
       </list>
     </recent_temporary>
   </component>
@@ -179,11 +188,30 @@
       <option name="project" value="LOCAL‎" />
       <updated>1744215997643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="fix">
+      <option name="closed" value="true" />
+      <created>1744216934492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1744216934492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_verify_distance_between_airports.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
