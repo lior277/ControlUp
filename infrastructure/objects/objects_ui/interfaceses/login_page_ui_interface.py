@@ -14,5 +14,4 @@ class ILoginPageUi(ABC):
 
     @abstractmethod
     def click_on_login_btn(self) -> Self:
-        """Click on the login button to submit the form."""
         pass

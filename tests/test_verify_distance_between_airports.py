@@ -7,7 +7,6 @@ from infrastructure.objects.objects_api.airport_gap import AirportsGap
 async def test_verify_distance_between_airports():
     airports_gap = AirportsGap()
 
-    # The correct endpoint should be "distances" (plural), not "distance"
     airports_gap_url = f"{DataRep.airport_gap_uri}airports/distance"
     distance = await airports_gap.get_distance_between_airports(airports_gap_url, "KIX", "NRT")
 

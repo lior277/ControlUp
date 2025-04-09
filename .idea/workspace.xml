@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94fd385b-87ad-4ab4-aa8b-4e35522ddef6" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/tests/test_verify_distance_between_airports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_verify_specific_airports.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,7 @@
   "keyToString": {
     "Python tests.pytest in test.py.executor": "Run",
     "Python tests.pytest in test_verify_airports_count.py.executor": "Run",
-    "Python tests.pytest in test_verify_distance_between_airports.py.executor": "Debug",
+    "Python tests.pytest in test_verify_distance_between_airports.py.executor": "Run",
     "Python tests.pytest in test_verify_inventory_items_count_ui.py.executor": "Run",
     "Python tests.pytest in test_verify_specific_airports.py.executor": "Run",
     "Python tests.pytest in tests.executor": "Run",
@@ -68,7 +66,7 @@
       <recent name="C:\Users\User\PycharmProjects\automation-control-up\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_verify_distance_between_airports.py">
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="pytest in test_verify_add_item_to_cart_ui.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="automation-control-up" />
       <option name="ENV_FILES" value="" />
@@ -156,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_verify_distance_between_airports.py" />
         <item itemvalue="Python tests.pytest in test_verify_specific_airports.py" />
-        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_verify_add_item_to_cart_ui.py" />
         <item itemvalue="Python tests.pytest in test_verify_inventory_items_count_ui.py" />
       </list>
@@ -196,7 +194,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1744216934492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1744218987276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1744218987276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,10 +214,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_verify_distance_between_airports.py</url>
-          <line>16</line>
+          <line>13</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="distance.data.attributes.kilometers" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
