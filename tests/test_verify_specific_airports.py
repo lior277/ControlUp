@@ -7,7 +7,7 @@ async def test_verify_specific_airports():
     expected_airports = [
         "Akureyri Airport",
         "St. Anthony Airport",
-        "CFB Bagotville"  # Fixed space between "CFB" and "Bagotville"
+        "CFB Bagotville"
     ]
 
     airports_gap = AirportsGap()

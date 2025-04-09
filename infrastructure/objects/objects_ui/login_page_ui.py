@@ -1,7 +1,6 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
-from infrastructure.infra.dal.data_reposetory.data_rep import DataRep
 from infrastructure.infra.dal.web_driver_extension.web_driver_extension import DriverEX
 from infrastructure.objects.objects_ui.interfaceses.login_page_ui_interface import ILoginPageUi
 
