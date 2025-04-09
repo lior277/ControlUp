@@ -8,8 +8,6 @@ def browser():
     yield driver
     TestSuitBase.driver_dispose(driver=driver)
 
-import asyncio
-import pytest
 
 
 
