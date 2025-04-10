@@ -31,8 +31,9 @@ class TestVerifyInventoryItemsCountUi(TestSuitBase):
         inventory_items = product_page \
             .get_inventory_items()
 
+
         CustomAssert.assert_all(
-            inventory_items == 6,
-            f"Expected inventory items: 6, Actual inventory items: {inventory_items}"
+            lambda: (inventory_items == 6,
+                     f"Expected inventory items: 6, Actual inventory items: {inventory_items}")
         )
 

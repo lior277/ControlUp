@@ -33,7 +33,8 @@ class TestVerifyAddItemToCartUi(TestSuitBase):
             .get_cart_count()
 
         CustomAssert.assert_all(
-            cart_count == "1",
-            f"Expected num of items in cart: 1, Actual num of items in cart: {cart_count}"
+            lambda: (cart_count == "1",
+                     f"Expected num of items in cart: 1, Actual num of items in cart: {cart_count}")
         )
+
 
