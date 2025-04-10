@@ -32,7 +32,7 @@ class TestVerifyAddItemToCartUi(TestSuitBase):
             .click_on_add_to_cart_btn_by_index(item_index=0)\
             .get_cart_count()
 
-        CustomAssert.assert_true(
+        CustomAssert.assert_all(
             cart_count == "1",
             f"Expected num of items in cart: 1, Actual num of items in cart: {cart_count}"
         )
