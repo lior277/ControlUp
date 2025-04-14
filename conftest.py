@@ -1,3 +1,6 @@
+import os
+import sys
+
 import pytest
 from tests.test_suit_Base import TestSuitBase
 
@@ -11,3 +14,4 @@ def browser():
 
 
 
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
