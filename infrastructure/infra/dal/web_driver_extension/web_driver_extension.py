@@ -19,7 +19,6 @@ from selenium.common.exceptions import (
 
 from infrastructure.infra.dal.data_reposetory.data_rep import DataRep
 
-
 def ignore_exception_types():
     return [
         NoSuchElementException,
